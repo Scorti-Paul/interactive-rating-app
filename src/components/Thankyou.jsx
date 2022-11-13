@@ -10,7 +10,7 @@ const Thankyou = (props) => {
   }, [])
 
   return (
-    <div className='h-screen w-[430px] overflow-hidden flex justify-center items-center m-8'>
+    <main className='h-screen w-[430px] overflow-hidden flex justify-center items-center m-8'>
       <div className='bg-gradient-to-b py-8  px-6 rounded-[30px] from-[#232A34] to-[#171E28]'>
         <div className='rounded-full  flex mb-6 justify-center items-center'>
           <img className='w-52' src={headerBgl} alt="" />
@@ -19,7 +19,7 @@ const Thankyou = (props) => {
         <h1 className='text-white text-4xl font-bold text-center mb-4 mt-10'>Thank you!</h1>
         <p className='text-slate-400 text-lg text-center'>We appreciate you taking the time to give a rating. If you ever need more support, don't hesiteate to get in touch!</p>
       </div>
-    </div>
+    </main>
   )
 }
 
